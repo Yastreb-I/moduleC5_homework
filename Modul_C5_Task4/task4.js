@@ -20,10 +20,10 @@ const resultNode = document.querySelector('.result');
 // Функция обработки полученного результата
   
 function fotoLoad(photoUrl) {
-  const cardBlock =  `<img class="card"
+  const photoCard =  `<img class="card"
                           src="${photoUrl}"                          
                         />`;
-   resultNode.innerHTML = cards;
+   resultNode.innerHTML = photoCard;
 }
 
 
